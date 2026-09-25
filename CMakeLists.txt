@@ -8,3 +8,5 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_executable(jusmusic
   src/main.cpp
 )
+
+target_compile_options(jusmusic PRIVATE -Wall -Wextra)
